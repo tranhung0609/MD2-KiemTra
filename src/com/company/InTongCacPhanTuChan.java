@@ -22,11 +22,13 @@ public class InTongCacPhanTuChan {
             i++;
         }
         int sum = 0;
-        for (int a = 0; a < array.length; a++) {
+        int a = 0;
+        while (a < array.length) {
             if (array[a] % 2 == 0) {
                 sum = sum + array[a];
                 System.out.println("Tong cac so chan in ra la " + sum);
             }
+            a++;
         }
     }
 }

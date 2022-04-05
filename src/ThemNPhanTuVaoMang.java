@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class ThemNPhanTuVaoMang {
     public static void main(String[] args) {
         int size;
-        int[] array;
         Scanner sc = new Scanner(System.in);
         do {
             System.out.println("Nhập số lượng phần tử: ");
@@ -12,6 +11,7 @@ public class ThemNPhanTuVaoMang {
                 System.out.println("qua 100");
             }
         } while (size > 100);
+        int[] array;
         array = new int[size];
         int i = 0;
         while (i < size) {
